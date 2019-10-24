@@ -1,7 +1,7 @@
 package kendaraan;
 
 
-public class MobilBalap extends Mobil implements RacerType{
+public class MobilBalap extends Mobil implements RacerMove{
 
 	public MobilBalap(int pintu,int roda, float kecepatan) {
 		super(roda, kecepatan);
